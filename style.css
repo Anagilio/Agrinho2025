@@ -3,7 +3,7 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     line-height: 1.6;
-    background-color: #059611;
+    background-color: #91ff00;
     color: #000000;
 }
 
@@ -16,10 +16,10 @@ body {
 
 /* Header */
 header {
-    background-color: #059611;
-    color: #fff;
+    background-color: #026d1d;
+    color: #fcfcfc;
     padding: 1rem 0;
-    border-bottom: #09be02 3px solid;
+    border-bottom: #f8f8f8 3px solid;
 }
 
 header h1 {
@@ -44,7 +44,7 @@ header li {
 }
 
 header a {
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 16px;
@@ -52,25 +52,25 @@ header a {
 }
 
 header a:hover {
-    color: #03a719;
+    color: #32fa00;
 }
 
 /* Seções Principais */
 section {
     padding: 40px 0;
     margin-bottom: 20px;
-    background-color: #fff;
+    background-color: #029609;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(75, 185, 1, 0.1);
 }
 
 section:nth-of-type(odd) { /* Estilo para seções alternadas */
-    background-color: #3ba000;
+    background-color: #029609;
 }
 
 #hero {
-    background: #3ba805;
-    color: #ffffff;
+    background: #029609;
+    color: #00ff00;
     text-align: center;
     padding: 60px 0;
     border-radius: 0; /* Remove border-radius para a seção hero */
@@ -88,7 +88,7 @@ section:nth-of-type(odd) { /* Estilo para seções alternadas */
 
 /* Footer */
 footer {
-    background-color: #105801;
+    background-color: #ffffff;
     color: #ffffff;
     text-align: center;
     padding: 20px 0;
