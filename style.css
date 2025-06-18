@@ -3,7 +3,7 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     line-height: 1.6;
-    background-color: #91ff00;
+    background-color: rgb(92, 129, 92);
     color: #000000;
 }
 
@@ -16,10 +16,10 @@ body {
 
 /* Header */
 header {
-    background-color: #026d1d;
-    color: #fcfcfc;
+    background-color: darkseagreen;
+    color: #0c0c0c;
     padding: 1rem 0;
-    border-bottom: #f8f8f8 3px solid;
+    border-bottom: #0f0f0f 3px solid;
 }
 
 header h1 {
@@ -44,7 +44,7 @@ header li {
 }
 
 header a {
-    color: #ffffff;
+    color: #0f0f0f;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 16px;
@@ -59,18 +59,18 @@ header a:hover {
 section {
     padding: 40px 0;
     margin-bottom: 20px;
-    background-color: #029609;
+    background-color:#4ed455;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(75, 185, 1, 0.1);
 }
 
 section:nth-of-type(odd) { /* Estilo para seções alternadas */
-    background-color: #029609;
+    background-color: #4ed455;
 }
 
 #hero {
-    background: #029609;
-    color: #00ff00;
+    background: #4ed455;
+    color: #1d1f1d;
     text-align: center;
     padding: 60px 0;
     border-radius: 0; /* Remove border-radius para a seção hero */
@@ -88,8 +88,8 @@ section:nth-of-type(odd) { /* Estilo para seções alternadas */
 
 /* Footer */
 footer {
-    background-color: #ffffff;
-    color: #ffffff;
+    background-color: #161616;
+    color: #141414;
     text-align: center;
     padding: 20px 0;
     margin-top: 30px;
